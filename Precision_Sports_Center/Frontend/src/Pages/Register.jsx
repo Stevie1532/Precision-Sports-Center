@@ -13,13 +13,16 @@ const Register = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // TODO: replace with real submit logic (API)
+    // TODO: replace with real submit logic (API) 
     alert(`Register (demo)\n\nName: ${form.name}\nEmail: ${form.email}`);
     setForm({ name: "", email: "", password: "" });
   };
 
   return (
     <div className="register-page">
+      <div className="register-header">
+        <h1>Welcome to Precision Sports Center. Great step towards fitness!</h1>
+      </div>
       <form className="register-form" onSubmit={handleSubmit}>
         <h2>Create account</h2>
 
@@ -42,7 +45,7 @@ const Register = () => {
               value={form.password}
               onChange={handleChange}
               required
-              minLength={6}
+              minLength={8}
             />
             <button
               type="button"

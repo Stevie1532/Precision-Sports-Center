@@ -104,7 +104,7 @@ export default function Home() {
               type="search"
               value={search}
               onChange={(e) => setSearch(e.target.value)}
-              placeholder="Search boots, shirts, equipment..."
+              placeholder="Search your preferrence here..."
               aria-label="Search products"
             />
             <button className="header-search-btn" aria-label="Search">
@@ -158,14 +158,14 @@ export default function Home() {
                 <img src="/img/product-1.jpg" alt="" />
                 <div className="feature-body">
                   <strong>Pro Football Boots</strong>
-                  <span className="price">GHS 450</span>
+                  <span className="price">GHS 00.00</span>
                 </div>
               </div>
               <div className="feature-card">
                 <img src="/img/product-2.jpg" alt="" />
                 <div className="feature-body">
                   <strong>Training Jersey</strong>
-                  <span className="price">GHS 120</span>
+                  <span className="price">GHS 00.00</span>
                 </div>
               </div>
             </div>
@@ -219,7 +219,7 @@ export default function Home() {
 
           <div className="footer-center">
             <div className="social" role="navigation" aria-label="Social links">
-              <a href="mailto:your.email@gmail.com" aria-label="Email">
+              <a href="mailto:xorlaliadogoh@gmail.com" aria-label="Email">
                 <FontAwesomeIcon icon={faEnvelope} />
               </a>
               <a href="https://mail.google.com/mail/?view=cm&fs=1&to=your.email@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Gmail">

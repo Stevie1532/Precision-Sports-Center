@@ -21,7 +21,9 @@ const About = () => {
         <p style={{ lineHeight: 1.6 }}>
           Precision Sports Center offers training, coaching, and facilities designed to help athletes
           of all ages improve performance, prevent injury, and reach their goals. We combine experienced
-          coaches, sport-specific programming, and modern equipment in a positive, community-driven environment.
+          coaches, sport-specific programming, and modern equipment in a positive, community-driven environment.<br/>
+          Whether you're a beginner looking to get active or a seasoned athlete aiming for peak performance,
+          Also we do operate a full service gym with state of the art equipment and personal training services.
         </p>
 
         <section style={{ marginTop: 28 }}>
